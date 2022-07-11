@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <ul>
+    <a href="{% url 'anagrafica-delete' %}"> Mostra anagrafica</a>
+    <a href="\anagrafica\create"> Inserire anagrafica</a>
+    <a href="\anagrafica\create"> Modifica anagrafica</a>
+    <a href=""> Cancella anagrafica</a>
+    <a href="\anagrafica\create"> Cerca anagrafica</a>
+    <a href="\anagrafica\create"> Torna indietro</a>
+    </ul>    
+{% endblock %}
+
+<!-- sistemare per fare in modo che ogni pulsante porti al giusto link -->

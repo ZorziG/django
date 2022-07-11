@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Codice ottico : {{ object.codottico }}</h1> 
+<h1> nome : {{ object.nome }}</h1>
+<p> indirizzo : {{ object.indirizzo }}</p>
+<p> citta : {{ object.citta }}</p>
+<p> provincia : {{ object.provincia }}</p>
+<p> cap : {{ object.cap }}</p>
+<p> nome2 : {{ object.nome2 }}</p>
+<p> indirizzo2 : {{ object.indirizzo2 }}</p>
+<p> provincia2 : {{ object.provincia2 }}</p>
+<p> cap2 : {{ object.cap2 }}</p>
+<p> telefono : {{ object.telefono }}</p>
+<p> cellulare : {{ object.cellurare }}</p>
+<p> codice fiscale : {{ object.codice_fiscale }}</p>
+<p> Partita iva : {{ object.p_iva }}</p>
+<p> sconto ottico : {{ object.sconto_gen }}</p>
+<p> pagamento : {{ object.pagamento }}</p>
+<p> banca : {{ object.banca }}</p>
+<p> iban : {{ object.iban }}</p>
+<p> abi : {{ object.abi }}</p>
+<p> cab : {{ object.cab }}</p>
+<p> fa : {{ object.fa }}</p>
+<p> spedizione : {{ object.spedizione }}</p>
+<p> pagamento corriere : {{ object.pagcorr }}</p>
+<p> note : {{ object.note }}</p>
+<p> codice pagamento : {{ object.codcpa }}</p>
+<p> email : {{ object.email }}</p>
+<p> pec : {{ object.pec }}</p>
+<p> applicatore : {{ object.applicatore }}</p>
+<p> data registrazione ottico : {{ object.data_registrazione }}</p>
+
+
+<!-- mostrare tutti gli elementi di ogni anagrafica -->
+{% endblock %}
